@@ -2,15 +2,16 @@
 
 ## Installation 
 
-```
+```sh
 git clone git@github.com:ryosuzuki/koa-mongoose-socket.git
 cd koa-mongoose-socket
 npm install && bower install 
 node --harmony server.js
 ```
 
+## Features
 
-## Feature.1: MVC directory structure:
+### MVC directory structure:
 
 All of application files lie in `app` directory, which is Rails like MVC directory structure.
 
@@ -43,10 +44,11 @@ All of application files lie in `app` directory, which is Rails like MVC directo
 `-- server.js
 ```
 
-## Feature.2: RESTful API 
+### RESTful API 
 
 Routes setting is defined in `config/routes.js`.
-```
+
+```js
 // RESTful API for Socket.io
 app.io.route('req:posts:socket', posts.socket);
 
