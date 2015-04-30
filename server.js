@@ -9,7 +9,7 @@ var server = http.createServer(app.callback());
 var port = process.env.PORT || 3000;
 
 var mongo = {
-  db: 'mongodb://localhost/piedmont',
+  db: 'mongodb://localhost/sample',
   options: {}
 };
 mongoose.connect(mongo.db, mongo.options);
