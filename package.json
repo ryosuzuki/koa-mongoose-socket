@@ -1,0 +1,52 @@
+{
+  "name": "piedmont",
+  "version": "0.0.1",
+  "description": "Interactive 3D modeling tool built with JavaScript",
+  "authors": [
+    "Ryo Suzuki <ryosuzk@gmail.com>",
+    "Shohei Aoki <shoaok@gmail.com>"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bower": "^1.4.1",
+    "co": "^4.5.1",
+    "co-body": "^1.1.0",
+    "co-views": "^0.3.0",
+    "koa": "^0.18.1",
+    "koa-body": "^1.1.0",
+    "koa-compress": "^1.0.8",
+    "koa-less": "0.0.3",
+    "koa-logger": "^1.2.2",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^4.3.2",
+    "koa-session": "^3.1.0",
+    "koa-static": "^1.4.9",
+    "koa-static-cache": "^3.1.0",
+    "koa.io": "0.0.3",
+    "less-middleware": "^2.0.1",
+    "mocha": "^2.2.4",
+    "mongoose": "^4.0.2",
+    "socket.io": "^1.3.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-cached": "^1.0.4",
+    "gulp-concat": "^2.5.2",
+    "gulp-filesize": "0.0.6",
+    "gulp-gzip": "^1.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-less": "^3.0.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0"
+  },
+  "private": true,
+  "license": "MIT"
+}

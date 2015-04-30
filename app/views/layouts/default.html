@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css"/>
+
+    <script src="/bootstrap/dist/js/bootstrap.js" defer></script>
+    {% block script %}{% endblock %}
+
+  </head>
+  <body>
+    {% include './header.html' %}
+    <div class="container" >
+      <div class="page-header">
+        {% block main %}{% endblock %}
+      </div>
+      <div class="content">
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+  </body>
+</html>
+
+

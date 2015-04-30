@@ -1,0 +1,24 @@
+{% extends '../layouts/default.html' %}
+
+{% block main %}
+  <h1>{{ post.title }}</h1>
+{% endblock %}
+
+{% block content %}
+  <div>
+    <p>
+      {{ JSON.stringify(post.createdAt) }}
+    </p>
+    <p>
+      {{ post.content }}
+    </p>
+
+    <br>
+
+    <h4>Debug</h4>
+    <pre>
+      {{ JSON.stringify(post) }}
+    </pre>
+  </div>
+{% endblock %}
+

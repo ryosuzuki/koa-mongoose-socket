@@ -1,0 +1,35 @@
+{% extends '../layouts/default.html' %}
+
+{% block main %}
+  <h1>{{ title }}</h1>
+{% endblock %}
+
+{% block content %}
+  {% for post in posts %}
+    <h2>
+      <a href="/posts/{{ post.id }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <p>
+      {{ post.content }}
+    </p>
+  {% endfor %}
+
+  <br>
+
+  <div>
+    <h5>
+      <a href="/posts/new">Create New</a>
+    </h5>
+  </div>
+
+  <br>
+
+  <h3>Debug</h3>
+  <pre>
+    {{ JSON.stringify(posts) }}
+  </pre>
+
+{% endblock %}
+
