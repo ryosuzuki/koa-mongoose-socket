@@ -1,4 +1,4 @@
-# Koa-Mongoose-Socket Boilerplate
+# Koa-Mongoose-Socket.io Boilerplate
 
 ## Installation 
 
